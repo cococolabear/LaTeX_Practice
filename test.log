@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.16)  17 SEP 2020 22:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.9.16)  18 SEP 2020 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -65,19 +65,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `test.toc'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 51.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 51.
+(Font)              <5> on input line 50.
  [1
 
 ] (./test.aux) ) 
 Here is how much of TeX's memory you used:
  439 strings out of 479418
  8313 string characters out of 5884585
- 247340 words of memory out of 5000000
+ 248340 words of memory out of 5000000
  18017 multiletter control sequences out of 15000+600000
  535122 words of font info for 39 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 24i,6n,19p,154b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,12n,19p,154b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on test.pdf (1 page).
