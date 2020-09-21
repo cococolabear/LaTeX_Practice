@@ -1,2 +1,4 @@
 \contentsline {paragraph}{}{1}%
 \contentsline {subparagraph}{}{1}%
+\contentsline {section}{\numberline {1}Greetings}{2}%
+\contentsline {section}{\numberline {2}Referencing}{2}%

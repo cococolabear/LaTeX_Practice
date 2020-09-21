@@ -28,9 +28,23 @@
 % \end{document}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 \documentclass{article}  
 
 \usepackage{xeCJK, fontspec, xunicode, xltxtra}  
+\usepackage{subcaption} % 子标题
+\usepackage{cite}
 \setCJKmainfont{Hiragino Sans GB}  
 
 \title{My first Latex document} 
@@ -61,13 +75,21 @@ S_{n}=1=2^{n}
 \end{displaymath}
 
 
-%对行间公式进行编号
+%对行间公式进行编号 全文顺序编号的
 \begin{equation} 
 E=mc^2 
+\textbf{哈佛}
 \end{equation}
 \begin{equation} 
 E=mc^2 
 \end{equation}
+
+
+%行内模式
+$E=mc^2$ 
+%行间模式
+$$E=mc^2$$
+
 \begin{equation} 
 E=mc^2 
 \end{equation}
@@ -133,8 +155,44 @@ dfsdgsg\\
 \end{enumerate}
 	
 
-
 %处理参考文献
+
+\section{Greetings} 
+\label{sec:greetings}   Hello!   
+\section{Referencing}   
+I greeted in {section~\ref{sec:greetings}}.
+
+
+
+\begin{figure}
+    \centering
+    \begin{minipage}[c]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.2\textheight]{1}
+        \subcaption{一只猫}
+    \end{minipage}
+    \begin{minipage}[c]{0.48\textwidth}
+        \centering
+        \includegraphics[height=0.2\textheight]{2}
+        \subcaption{电路图}
+    \end{minipage}
+    \caption{多图并排示例}
+\end{figure}
+
+
+
+
+hhvjhvjkbjkbkj\cite{Wille1982}hfhjj
+
+
+
+
+%\bibliographystyle{plain}
+\bibliography{ref}
+
+
+
+
 
 
 
